@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+}
+
+#container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#add-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#add-button:hover {
+    background-color: #218838;
+}
+
+#list-container {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+#list {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+}
+
+#list p {
+    margin: 0;
+    word-wrap: break-word; /* Breaks long words to keep them inside the container */
+    max-width: 75%; /* Controls width so that the p tag doesn't overflow */
+}
+
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 20px;
+    cursor: pointer;
+    width: 25px;
+    border-radius: 100px;
+}
+
+img:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
